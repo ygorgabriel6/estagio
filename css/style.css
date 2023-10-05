@@ -7,6 +7,9 @@
   background-color: rgb(96, 96, 96);
   border-bottom: 2px solid black;
 }
+a{
+  text-decoration: none;
+}
 /*REDIMENSIONAMENTO DA IMAGEM PARA O CABEÇALHO*/
 .img-logo{
   margin: 20px;
@@ -22,12 +25,33 @@ height: 100px;
 .hov-off:hover{
   color: white;
 }
-
-
 .corpo-cont{
 display: flex;
 }
 p{
   font-size: 1.25rem;
 }
-
+.box-cont{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-content: center;
+}
+.box-doc{
+  display: inline-block;
+  padding: 20px 10px;
+  width: 300px;
+  height: 100px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+.cor--cinza{
+  background-color: rgb(96, 96, 96);
+  color: white;
+}
+/* mapa fatec */
+#maps{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 50px;
+}
