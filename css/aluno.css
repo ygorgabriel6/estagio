@@ -1,0 +1,28 @@
+/* barra de navegação */
+#container-topo{
+display: grid;
+grid-template-columns: auto 1fr 1fr;
+}
+/* imagem de perfil e nome */
+#persona-topo{
+  padding-left: 60px;
+}
+.link-buttom-topo{
+justify-content: center;
+gap: 20px;
+font-size: 20px;
+}
+/* barra de pesquisa */
+#conteudoNavbarSuportado{
+justify-content: end;
+}
+/* botao da barra de pesquisa */
+.btn{
+  border-color: white;
+color: white;
+}
+.btn:hover{
+  background-color: white;
+  border-color: #007bff;
+  color: #007bff;
+}
