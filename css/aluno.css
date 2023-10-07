@@ -31,22 +31,20 @@ color: white;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   padding: 60px;
-  background-color: blue;
+ 
   width: 100vw;
   height: 100vh;
   
 }
-.filtro-main{
+/* .filtro-main{
   color: black;
   width: 300px;
   height: 100vh;
-  background-color: #f6f6f6;
-  grid-column: 1;
-}
-.mural-vagas-main{
-  color: white;
   background-color: #007bff;
-  grid-column: 3/-1;
+  grid-column: 1;
+} */
+.mural-vagas-main{
+  grid-column: 1/-1;
 }
 /* vagas */
 .mural-vagas-main{
@@ -55,14 +53,7 @@ grid-template-columns: repeat(3, 1fr);
 grid-template-rows: auto;
 padding: 20px;
 gap: 20px;
+}
 
-}
-.vagas{
- display: grid;
- width: 100%;
- padding: 20px;
- justify-content: center;
- justify-items: center;
- border: 1px solid white;
-}
+
 
