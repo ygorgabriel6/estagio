@@ -32,11 +32,27 @@ height: 80px;
 .nav-color{
   color: white;
 }
-
 /*DESLIGAMENTO DA FUNCAO HOVER*/
 .hov-off:hover{
   color: white;
 }
+
+/* ESTILIZAÇÃO DO MODAL LOGIN */
+.modal-content{
+background-color: rgb(96, 96, 96);
+justify-items:center ;
+color: white;
+}
+.modal-header{
+  display: inline-block;
+  text-align: center;
+}
+.modal-body{
+  display: flex;
+  align-self: center;
+  padding-top: 50px;
+}
+
 /* ancora */
 
 .corpo-cont{
